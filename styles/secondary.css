@@ -1,0 +1,441 @@
+.modal.fade .modal-dialog {
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+     -moz-transition: -moz-transform 0.3s ease-out;
+       -o-transition: -o-transform 0.3s ease-out;
+          transition: transform 0.3s ease-out;
+}
+
+.modal.in .modal-dialog {
+
+}
+
+
+
+@media print {
+
+	@page {
+		size: A4;
+		margin: auto;
+	}
+
+	html, body {
+		width: 1024px;
+		height: 100%;
+		background-size: auto;
+	}
+
+	body {
+		margin: auto;
+		list-style: decimal;
+	}
+}
+
+@media (max-width: 768px){
+	.list-group-item {
+		margin-left: 20px;
+	}
+	.btn-group-vertical{
+		margin-left: 20px;
+	}
+
+	#homeTopSplash {
+		min-width: 600px;
+		height: auto;
+	}
+
+	#ciiText {
+		font-size: 0.9rem !important;
+	}
+
+	#titleBoxSec {
+		margin-top: 5rem;
+	}
+
+	#showcaseYear{
+		line-height: 1rem;
+		padding-top: 2.5rem;
+	}
+
+	.western-quick-links{
+		display: block;
+	}
+}
+
+@media (max-width: 1224px) {
+	.blockquote{
+		min-width: 50%;
+	}
+}
+
+@media only screen and (min-width: 1040px) and (max-width: 1280px) {
+
+	#showcaseYear {
+		line-height: 1.7rem !important;
+	}
+}
+
+@media only screen and (min-width: 1650px) and (max-width: 1665px) {
+
+	#showcaseYear {
+		line-height: 1.7rem !important;
+		font-size: 1.4rem;
+	}
+}
+
+
+
+@media (max-width: 1280px){
+
+	#ciiText {
+		font-size: 1rem;
+		margin-top: 0.8rem !important;
+	}
+
+
+	#showcaseYear{
+		line-height: 1rem;
+	}
+
+
+}
+
+
+@media (min-width: 768px) {
+	body {
+		background-color: black;
+	}
+
+	.navbar-brand.abs {
+		position: absolute;
+		width: 100%;
+		left: 0;
+		text-align: center;
+	}
+
+	#showcaseText {
+		padding-top: 0px;
+	}
+}
+
+
+@media (min-width: 992px) {
+	.pb-2, .py-2 {
+	    padding-top: 6rem;
+	}
+
+	.pt-5, .py-5 {
+	    padding-top: 7.85rem!important;
+	}
+}
+
+
+.western-quick-links{
+	top: -2rem;
+}
+
+.western-search-type-toggle {
+	top: -30px;
+}
+
+#homeTopSplash {
+	height: auto;
+}
+
+.nav-item {
+	font-size: 20px;
+}
+
+#titleHolder {
+	position:relative;
+	top: -1.9em;
+}
+
+#title1Sec {
+	margin-top: 1rem;
+	color: white;
+}
+
+#title2Sec {
+
+	color: white;
+	margin-bottom: 10px;
+}
+
+.navbar {
+	min-width: 500px;
+}
+
+.sidebarGroup{
+	margin-bottom: 6px !important;
+}
+
+.blockquote{
+	margin-left: 6px;
+	font-style: italic;
+}
+
+.quoteText{
+	font-size: 1em;
+}
+
+.videoLink{
+	margin-top: 3px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+
+.btn {
+	background-color: #ffffff !important;
+	color: black !important;
+	border-color: #e6e6e6 !important;
+	border-radius: 2 !important;
+	white-space:normal !important;
+	max-width: auto;
+}
+
+.btnSecondary {
+	border-radius: 2 !important;
+	color: black !important;
+}
+
+.btn-group-vertical {
+	margin-bottom: 6px;
+	color: black !important;
+}
+
+.btn:hover{
+	background-color: #e6e6e6 !important;
+	color: black !important;
+	border-color: grey;
+}
+
+
+#content{
+	padding-top: 10px;
+
+}
+
+
+#bodyContent {
+	background-image:url(../images/splash_footer_short.png);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.list-group-item {
+	padding-left: 5px !important;
+	font-size: 0.9em !important;
+	color: black !important;
+}
+
+.list-special .list-group-item {
+	border-radius: 2px;
+	color: black !important;
+
+}
+
+.list-special .list-group-item {
+	border-radius: 2px;
+	color: black !important;
+
+/*
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  */
+}
+
+
+.dropdown-toggle[aria-expanded="true"]:after {
+	transform: rotate(180deg);
+}
+
+/*for the animation*/
+.dropdown-toggle:after {
+	transition: 0.3s;
+}
+
+.abelColor{
+	background-color: #e6e6e6 !important;
+	color: black;
+	border-color: #e6e6e6;
+}
+
+.abelHoverColor:hover{
+	background-color: #e6e6e6;
+	color: black;
+	border-color: grey;
+}
+.abelHoverColor{
+	background-color: #e6e6e6;
+	color: black;
+	border-color: grey;
+}
+
+.currierColor{
+	background-color: #bdd6c7 !important;
+	color: black !important;
+	border-color: #bdd6c7 !important;
+}
+
+.currierHoverColor:hover{
+	background-color: #bdd6c7 !important;
+	color: black !important;
+	border-color: grey !important;
+}
+
+.leeColor{
+	background-color: #dbbdc6 !important;
+	color: black !important;
+	border-color: #dbbdc6 !important;
+}
+
+.leeHoverColor:hover{
+	background-color: #dbbdc6 !important;
+	color: black !important;
+	border-color: grey !important;
+}
+
+.rightImage {
+	display: block;
+	width: 45%;
+	height:45%;
+	margin-left: 30px;
+	margin-bottom: 30px;
+	margin-right: 10px;
+}
+
+.col-md-8 {
+	margin-left: 2em;
+}
+
+.ciiText {
+	padding-top: 0px;
+}
+
+#resourceBody {
+	display: none;
+}
+
+.themequote {
+	background-color: lightgrey;
+	margin-right: 0;
+	width: 50%;
+}
+
+.blockquote {
+	font-size: 1rem;
+}
+
+.dont-break-out {
+
+	/* These are technically the same, but use both */
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+}
+
+div.list-group-item{
+	word-wrap: break-word;
+}
+
+
+/* fight back western css */
+
+body{
+	line-height: 1.5;
+	font-size: 12pt;
+}
+
+a[href$='.pdf'] {
+	overflow: visible;
+	padding: 10px 19px 10px 0px;
+}
+
+h1, h2, h3, h4{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: black;
+	margin-top: 0em;
+	padding-bottom: 0em;
+}
+
+h4{
+	margin: 0 0 1em 0;
+}
+
+h5{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: black;
+}
+
+#rollover {
+	width: 403px;
+	height: 209px;
+	position: absolute;
+	z-index: 999;
+	top: 500px;
+}
+
+#rollover * {
+	padding: 15px 25px 0px 45px;
+}
+
+#rollover > div#rollover_body {
+	font-size: 9pt;
+	height: 80px;
+}
+
+#rollover > div#rollover_time {
+	text-align: right;
+	font-size: 10pt;
+	padding-top: 5px;
+	margin-right: 10px;
+}
+
+#topBtn:hover {
+	background-color: #0070b6;
+}
+
+#topBtn {
+	display: none; /* Hidden by default */
+	position: fixed; /* Fixed/sticky position */
+	bottom: 20px; /* Place the button at the bottom of the page */
+	right: 30px; /* Place the button 30px from the right */
+	z-index: 99; /* Make sure it does not overlap */
+	border: none; /* Remove borders */
+	outline: none; /* Remove outline */
+	background-color: #0070b6; /* Set a background color */
+	color: white; /* Text color */
+	cursor: pointer; /* Add a mouse pointer on hover */
+	padding: 15px; /* Some padding */
+	border-radius: 10px; /* Rounded corners */
+	font-size: 18px; /* Increase font size */
+}
+
+#topBtn:hover {
+	background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
+
+/* media queries */
+
+@include media-breakpoint-up(sm) {
+	.blockquote {
+		font-size: 1.2rem;
+	}
+
+}
+
+@include media-breakpoint-up(md) {
+	.blockquote {
+		font-size: 1.4rem;
+	}
+}
+
+@include media-breakpoint-up(lg) {
+	.blockquote {
+		font-size: 1.6rem;
+	}
+}

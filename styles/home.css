@@ -1,0 +1,869 @@
+html {
+  margin: 0;
+  padding: 0;
+
+  overflow-x: hidden;
+}
+
+body {
+  min-width: 600px;
+  max-width: 100%;
+  width: 100%;
+
+  min-height: 600px;
+  max-height: 100%;
+  height: 100%;
+  background-color: black;
+
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.main-nav {
+  display: none;
+}
+
+.mobile-main-nav {
+  display: none;
+}
+
+header[role="banner"] {
+  display: block;
+  height: 3.25rem;
+  background-color: #e9e9e9;
+  margin-top: 0;
+  border: none;
+  padding-left: 0;
+  padding-right: 0;
+  z-index: 10;
+}
+
+header[role="banner"] nav {
+  background-color: rgba(32,24,42,.7);
+  box-shadow: inset 0.125rem 0.125rem 0.625rem rgba(32,24,42,.7);
+  top: 0;
+  right: 0;
+  width: 100%;
+  position: relative;
+  border: none;
+  font-size: 12px;
+}
+
+header[role="banner"] .western-logo {
+  background-image: url(https://wwu.edu/wwucommon/lite/images/western-logo.png);
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 0px;
+  height: 126px;
+  width: 220px;
+  z-index: 10;
+}
+
+#showcaseNav {
+    position: absolute;
+    width: 240px;
+    height: 2.375rem;
+    right: 200px;
+    top: 125px;
+    padding: 11px;
+    text-align: center;
+    z-index: 12;
+    font-size: 15px;
+    color: grey;
+}
+
+#issueNumber {
+  position: absolute;
+  width: 100px;
+  height: 2.5rem;
+  top: 126px;
+  right: 110px;
+  padding: 10px;
+  text-align: center;
+  z-index: 12;
+  font-size: 16px;
+  opacity: 0.7;
+  color: white;
+  background-color: gray;
+}
+
+#infoBox{
+  display: inline-block;
+  margin: 10px;
+  font-size: 1.5em;
+  font-style: normal;
+}
+
+.western-search {
+  z-index: 40;
+  margin-top: 20px;
+}
+
+.western-quick-links {
+  background-color: #e9e9e9;
+  margin-top: 1.7rem;
+}
+
+.western-search button {
+  margin-right: 4rem;
+  margin-top: 0.7rem;
+  z-index: 30;
+}
+
+.nav-item {
+  font-size: 20px;
+}
+
+#homeTopSplash {
+  top: 0;
+  width: 100%;
+  height: 1378px;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  z-index: -10000;
+}
+
+#headerContainer {
+  z-index: 12;
+  display: block;
+}
+
+#homeContentContainer {
+  padding-top: 8.5rem;
+  padding-bottom: 3rem;
+}
+
+#footerContainer {
+  width: 100%;
+  height: 17.5rem;
+  padding-left: 0px;
+  padding-right: 0px;
+  bottom: 0;
+  margin-bottom: -16rem;
+}
+
+
+#titleHolder {
+  display: block;
+  width: 100%;
+  height: 4.40rem;
+  background-color: gray;
+  box-shadow: inset 0.125rem 0.125rem 0.15rem black;
+  opacity: 0.7;
+  z-index: 9;
+  margin-top: 1px;
+  padding-top: 5px;
+  padding-bottom: 8px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+#ciiText {
+  width: auto;
+  font-size: 1.3rem;
+  color: white;
+  z-index: 11;
+  margin-left: 15rem;
+  margin-top: 1.50rem;
+  padding-top: 0.2rem;
+}
+
+#showcaseText {
+  width: auto;
+  font-size: 3.5rem;
+  color: white;
+  z-index: 10;
+  margin-top: 1.25rem;
+}
+
+#showcaseYear {
+  width: auto;
+  font-size: 2.3rem;
+  color: white;
+  z-index: 20;
+  margin-right: 1.30rem;
+  padding-top: 1.3rem;
+  line-height: 1rem;
+}
+
+#footerShowcaseTitle {
+  color: white;
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+}
+
+#footerYear {
+  font-size: 1.5rem;
+  color: #0083d6;
+}
+
+#footerLinks {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
+.license {
+  font-size: 12px;
+  color: white;
+  width: auto;
+}
+
+.license a {
+  font-size: 16px;
+}
+
+#centerPos a{
+  margin-left: 1.5rem;
+  font-size: 0.9rem;
+  color: #fefefe;
+  padding-bottom: 1rem;
+}
+
+#leftPos {
+  padding-left: 4rem;
+  width: auto;
+}
+
+#accessInfo {
+  font-size: 16px;
+  color:#fefefe;
+}
+
+#accessInfo a {
+  font-size: 16px;
+  color:#fff;
+}
+
+#accessInfo a:hover {
+  color:grey;
+}
+
+#privacyInfo {
+  font-size: 16px;
+  color:#fefefe;
+}
+
+#privacyInfo a {
+  color:#fff;
+  font-size: 16px;
+}
+
+#privacyInfo a:hover {
+  color:grey;
+}
+
+#abelCard {
+  border: 10px solid #aeafb4;
+}
+
+#leeCard {
+  border: 10px solid #dbbdc6;
+}
+
+#currierCard {
+  border: 10px solid #bdd6c7;
+}
+
+#abelCaption {
+  width: auto;
+  height: auto;
+  padding-right: auto;
+  padding-left: auto;
+  background-color: gray;
+  opacity: 0.8;
+}
+
+#leeCaption {
+  width: auto;
+  height: auto;
+  padding-right: auto;
+  padding-left: auto;
+  background-color: gray;
+  opacity: 0.8;
+}
+
+#currierCaption {
+  width: auto;
+  height: auto;
+  padding-right: auto;
+  padding-left: auto;
+  background-color: gray;
+  opacity: 0.8;
+}
+
+#abelButton {
+  background-color: #aeafb4;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  padding-top: 3px;
+}
+
+#leeButton {
+  background-color: #dbbdc6;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  padding-top: 3px;
+}
+
+#currierButton {
+  background-color: #bdd6c7;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  padding-top: 3px;
+}
+
+#navbarDropdownMenuLink > a {
+  background-color: gray;
+}
+
+.card-body {
+  padding-top: 0.7rem;
+  padding-bottom: 0.4rem;
+  padding-left: 1rem;
+  padding-right: 0.7rem;
+}
+
+.card-title {
+  margin-bottom: 0rem;
+  padding: 0;
+  display: inline;
+  color: black;
+}
+.card-text {
+  margin-top: 0;
+  color: black;
+}
+
+#abelInfo {
+  position: absolute;
+  opacity: 0;
+  background-color: grey;
+  font-size: 15px;
+  padding: 10px;
+  bottom: 0;
+  margin-bottom: 6.5rem;
+}
+
+#leeInfo {
+  position: absolute;
+  opacity: 0;
+  background-color: grey;
+  font-size: 15px;
+  padding: 10px;
+  bottom: 0;
+  margin-bottom: 6.5rem;
+}
+
+#currierInfo {
+  position: absolute;
+  opacity: 0;
+  background-color: grey;
+  font-size: 15px;
+  padding: 10px;
+  bottom: 0;
+  margin-bottom: 6.5rem;
+}
+
+.blockquote {
+  display: inline;
+  width: 30%;
+  height: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-bottom: 1rem;
+  margin-right: 21rem;
+  opacity: 0.8;
+  font-size: 16.5px;
+}
+
+.blockquote span {
+  margin-left: 1.5rem;
+}
+
+#showcaseTitleBox {
+  display: inline;
+  padding-top: 3rem;
+  width: auto;
+  margin-right: 2rem;
+  margin-left: 22rem;
+}
+
+#showcaseTitle {
+  display: inline-block;
+}
+
+#title1Home {
+  font-size: 5.5rem;
+  margin-left: 4.5rem;
+  color: white;
+}
+
+#title2Home {
+  font-size: 5.5rem;
+  color: white;
+}
+
+
+/* shorten the footer would need to shorten top of container manually */
+
+/*
+.pt-4, .py-4 {
+     padding-top: 4.86rem!important;
+ }
+
+hr {
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+}
+
+
+
+@media only screen and (min-width: 990px){
+  .pt-5, .py-5 {
+      padding-top: 7rem!important;
+  }
+}
+
+*/
+
+@media only screen and (min-width: 2293px) and (max-width: 2580px) {
+
+  #showcaseTitleBox {
+    margin-left: 33rem;
+  }
+
+  #footerContainer {
+    margin-bottom: -3rem;
+  }
+}
+
+@media only screen and (min-width: 2247px) and (max-width: 2292px) {
+
+  #showcaseTitleBox {
+    margin-left: 30rem;
+    margin-top: 0;
+  }
+
+  #footerContainer {
+    margin-bottom: -5rem;
+  }
+}
+
+@media only screen and (min-width: 2110px) and (max-width: 2246px) {
+
+  #showcaseTitleBox {
+    margin-left: 30rem;
+    margin-top: 0;
+  }
+
+
+  #homeTopSplash {
+    height: 100%;
+  }
+}
+
+@media only screen and (min-width: 1788px) and (max-width: 2109px) {
+
+  #showcaseTitleBox {
+    padding-top: 3rem;
+    margin-left: 26rem;
+    margin-right: 1rem;
+    margin-top: 0;
+  }
+
+  #homeTopSplash {
+    height: 100%;
+  }
+
+  .blockquote {
+    margin-right: 16rem;
+  }
+}
+
+@media only screen and (min-width: 1741px) and (max-width: 1780px) {
+
+  #footerContainer {
+
+    padding-left: 50px;
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 1651px) and (max-width: 1740px) {
+
+  #showcaseTitleBox {
+    padding-top: 5rem;
+    margin-right: 2rem;
+    margin-left: 20rem;
+    margin-top: 0;
+  }
+
+  .blockquote {
+    margin-right: 16rem;
+  }
+
+  #homeTopSplash {
+    height: 100%;
+  }
+
+  #showcaseYear {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (min-width: 1583px) and (max-width: 1650px) {
+
+  #showcaseTitleBox {
+    padding-top: 5rem;
+    margin-right: 1rem;
+    margin-left: 18rem;
+    margin-top: 0;
+  }
+
+  .blockquote {
+    margin-right: 16rem;
+  }
+
+  #showcaseText {
+    font-size: 2.5rem;
+  }
+
+  #showcaseYear {
+    padding-bottom: 5px;
+  }
+}
+
+@media only screen and (min-width: 1445px) and (max-width: 1582px) {
+
+  #showcaseTitleBox {
+    padding-top: 6rem;
+    margin-right: 1rem;
+    margin-left: 16rem;
+    margin-top: 0;
+  }
+
+  .blockquote {
+    margin-right: 12rem;
+  }
+
+  #showcaseText {
+    font-size: 2.5rem;
+  }
+
+  #showcaseYear {
+    padding-bottom: 5px;
+  }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1444px) {
+
+  .navbar {
+    min-width: 65%;
+  }
+
+  #showcaseTitleBox {
+    padding-top: 6rem;
+    margin-right: 1rem;
+    margin-left: 14rem;
+    margin-top: 0;
+  }
+
+  .blockquote {
+    margin-right: 10rem;
+  }
+
+  #showcaseText {
+    font-size: 2.3rem;
+  }
+
+  #showcaseYear {
+    font-size: 1.4rem;
+    padding-bottom: 5px;
+  }
+
+  #ciiText {
+    font-size: 1.1rem;
+    margin-left: 14rem;
+  }
+
+  #footerContainer {
+
+    padding-left: 50px;
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 1040px) {
+
+  .navbar {
+    min-width: 92%;
+  }
+
+  #showcaseTitleBox {
+    padding-top: 6rem;
+    margin-right: 1rem;
+    margin-left: 14rem;
+    margin-top: 0;
+  }
+
+  .blockquote {
+    margin-left: 5rem;
+    width: 90%
+  }
+
+  #title1Home, #title2Home {
+    text-align: center;
+  }
+
+
+  #ciiText {
+    font-size: 1.1rem;
+    margin-left: 14rem;
+  }
+
+  #showcaseText {
+    padding-top: 0.4rem;
+    font-size: 1.3rem;
+  }
+
+  #showcaseYear {
+    font-size: 1.2rem;
+  }
+
+
+  #headerContainer, #homeContentContainer {
+    margin:auto;
+  }
+
+  #footerContainer {
+
+    padding-left: 50px;
+    width: 100%;
+    height: auto;
+  }
+
+  #showcaseTitleBox {
+
+    margin-right: 1.3rem;
+    margin-left: 1.3rem;
+    margin:auto;
+    padding-left: 3rem;
+    padding-bottom: 1.3rem;
+  }
+
+  .western-quick-links {
+    margin-right: 3rem;
+  }
+}
+
+@media only screen and (max-width: 1039px) and (min-width: 945px) {
+
+  .navbar {
+    min-width: 85%;
+  }
+
+  #ciiaText {
+    margin-left: 5em;
+  }
+
+  .blockquote {
+    margin-left: 5rem;
+    width: 25rem;
+  }
+
+
+  #showcaseText {
+    font-size: 0.9em;
+    margin-top: 1rem;
+    padding-top: 0.4rem;
+  }
+
+  #showcaseYear {
+    padding-top: 1rem;
+    font-size: 0.9rem;
+    line-height: 1rem;
+  }
+
+  #headerContainer, #homeContentContainer {
+    margin:auto;
+  }
+
+  #footerContainer {
+
+    padding-left: 50px;
+    width: 100%;
+    height: auto;
+  }
+
+  #showcaseTitleBox {
+
+    margin-right: 1.3rem;
+    margin-left: 1.3rem;
+    margin:auto;
+    padding-left: 3rem;
+    padding-bottom: 1.3rem;
+  }
+
+  .western-quick-links {
+    margin-right: 3rem;
+  }
+
+}
+
+@media only screen and (max-width: 944px) and (min-width: 879px) {
+  .navbar {
+    min-width: 85%;
+  }
+
+  #ciiaText {
+    margin-left: 5em;
+  }
+
+  .blockquote {
+    margin-left: 5rem;
+    width: 25rem;
+  }
+
+
+  #showcaseText {
+    font-size: 1em;
+    margin-top: 3rem;
+    padding-top: 0.4rem;
+    padding-left: 5px;
+  }
+
+  #showcaseYear {
+    padding-top: 1.8rem;
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+
+
+  #headerContainer, #homeContentContainer {
+    margin:auto;
+  }
+
+  #footerContainer {
+
+    padding-left: 50px;
+    width: 100%;
+    height: auto;
+  }
+
+  #showcaseTitleBox {
+
+    margin-right: 1.3rem;
+    margin-left: 1.3rem;
+    margin:auto;
+    padding-left: 3rem;
+    padding-bottom: 1.3rem;
+  }
+
+  #showcaseYear {
+    padding-top: 1.8rem;
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+
+  .western-quick-links {
+    margin-right: 3rem;
+  }
+}
+
+@media only screen and (max-width: 1768px) {
+  #infoOutline{
+    min-width: 870px;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  #infoOutline {
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+      min-width: 885px;
+
+  }
+
+@media only screen and (max-width: 879px) {
+
+  .navbar {
+    min-width: 600px;
+  }
+
+  .blockquote {
+    margin-left: 6.2rem;
+    width: 25rem;
+  }
+
+
+  #ciiaText {
+    margin-left: 5em;
+    font-size: 1.5rem;
+
+  }
+
+  #showcaseText {
+    font-size: 1em;
+    padding-top: 1.5rem;
+  }
+
+  #showcaseYear {
+    padding-top: 2rem;
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+
+  #headerContainer, #homeContentContainer {
+    margin:auto;
+  }
+
+  #footerContainer {
+
+    padding-left: 50px;
+    width: 100%;
+    height: auto;
+  }
+
+  #showcaseTitleBox {
+
+    margin-right: 1.3rem;
+    margin-left: 1.3rem;
+    margin:auto;
+    padding-left: 3rem;
+    padding-bottom: 1.3rem;
+  }
+
+  #homeTopSplash {
+    height: auto;
+    min-width: 600px;
+  }
+
+  .western-search  {
+    display: none;
+  }
+
+  header[role="banner"] nav {
+    display: none;
+  }
+
+  #abelCard, #leeCard, #currierCard {
+    width: 100%;
+  }
+
+  #infoOutline {
+      min-width: 600px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  #infoOutline {
+      min-width: 615px;
+  }
+}

@@ -1,0 +1,139 @@
+@media (min-width: 768px) {
+
+
+	body {
+		background-color: black;
+	}
+
+	.navbar-brand.abs {
+		position: absolute;
+		width: 100%;
+		left: 0;
+		text-align: center;
+	}
+}
+
+.nav-item {
+	font-size: 20px;
+
+}
+
+#title1Sec {
+
+	color: white;
+}
+
+#title2Sec {
+
+	color: white;
+	margin-bottom: 10px;
+}
+
+.sidebarGroup{
+	margin-bottom: 6px;
+
+}
+
+
+.btn {
+	background-color: #ffffff;
+	color: black;
+	border-color: #e6e6e6;
+}
+
+.btnSecondary {
+	border-radius: 0;
+}
+
+.btn-group-vertical {
+	margin-bottom: 6px;
+
+}
+
+.btn:hover{
+	background-color: #e6e6e6;
+	color: black;
+	border-color: grey;
+}
+
+
+#content{
+	padding-top: 10px;
+
+}
+
+.list-group-item {
+	padding-left: 5px;
+	font-size: 13.6px;
+}
+
+.list-special .list-group-item {
+	border-radius: 0px;
+
+}
+
+.list-special .list-group-item {
+	border-radius: 0px;
+
+/*
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  */
+}
+
+
+
+
+.dropdown-toggle[aria-expanded="true"]:after {
+	transform: rotate(180deg);
+}
+
+/*for the animation*/
+.dropdown-toggle:after {
+	transition: 0.3s;
+}
+
+.abelColor{
+	background-color: #e6e6e6;
+	color: black;
+	border-color: #e6e6e6;
+}
+
+.abelHoverColor:hover{
+	background-color: #e6e6e6;
+	color: black;
+	border-color: grey;
+}
+
+.currierColor{
+	background-color: #bdd6c7;
+	color: black;
+	border-color: #bdd6c7;
+}
+
+.currierHoverColor:hover{
+	background-color: #bdd6c7;
+	color: black;
+	border-color: grey;
+}
+
+.leeColor{
+	background-color: #dbbdc6;
+	color: black;
+	border-color: #dbbdc6;
+}
+
+.leeHoverColor:hover{
+	background-color: #dbbdc6;
+	color: black;
+	border-color: grey;
+}
+
+.rightImage {
+	display: block;
+	width: 45%;
+	height:45%;
+	margin-left: 30px;
+	margin-bottom: 30px;
+	margin-right: 10px;
+}
